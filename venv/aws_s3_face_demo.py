@@ -26,3 +26,5 @@ def detect_labels(bucket, key, max_labels=10, min_confidence=90):
 
 for label in detect_labels(BUCKET, KEY):
     print("{Name} - {Confidence}%".format(**label))
+
+#https://gist.github.com/alexcasalboni/0f21a1889f09760f8981b643326730ff
