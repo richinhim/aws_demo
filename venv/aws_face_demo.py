@@ -4,7 +4,6 @@ client = boto3.client('rekognition',
                       aws_access_key_id='AKIAJUDW5BIKGCZ4FMVA',
                       aws_secret_access_key='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',
                       region_name='us-east-1'
-
                       )
 
 p = open('./2016090911081720022.jpg','rb')
